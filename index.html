@@ -15,8 +15,23 @@
             <h3>Search for Users/Results</h3>
             <form id="searchForm">
                 <input type="text" placeholder="Search..." class="formInput formText">
+                <br>
                 <input type="submit" class="formInput formSubmit">
             </form>
+            <div id="resultsContainer">
+                <h2>List of Users</h2>
+                <div id="resultsArea">
+
+                </div>
+                <div class="bottomContainer">
+                    <button class="pageButton previous"><img src="arrowArt.png"></button>
+                    <div class="countBox">
+                        <p>Total Count: <span class="theCount"></span></p>
+                        <p>Page <span class="pageNumber">1</span></p>
+                    </div>
+                    <button class="pageButton next"><img src="arrowArt.png"></button>
+                </div>
+            </div>
         </div>
         <script src="UserSearch.js" async defer></script>
     </body>

@@ -8,4 +8,84 @@ h1{
 }
 #mainContainer{
     border: solid black;
+    margin: 0 auto;
+    padding: 10px;
+    width: fit-content;
+    text-align: center;
+}
+#searchForm{
+    /* text-align: center; */
+}
+.formInput{
+    width: 250px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+#resultsContainer{
+    position: relative;
+}
+#resultsArea{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.bottomContainer{
+    display: flex;
+    /* width: 50%; */
+    margin: 0 auto;
+    justify-content: center;
+}
+.pageButton{
+    padding: 5px;
+    width: 70px;
+    margin: 5px 20px;
+    background: none;
+    border: none;
+    /* visibility: hidden; */
+}
+.pageButton img{
+    width: 100%;
+}
+.countBox{
+    border: solid 1px black;
+    width: 10em;
+    margin: 0 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+/* .previous{
+    position: absolute;
+    left: 0px;
+}
+.next{
+    position: absolute;
+    right: 0px;
+} */
+.next img{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.resultBox{
+    padding: 5px;
+    margin: 5px;
+    border: solid 1px black;
+    position: relative;
+}
+.userAvatarPic{
+    width: 200px;
+}
+.userAvatarPic img{
+    width: 100%;
+}
+.resultUserName{
+    position: absolute;
+    bottom: 38px;
+    left: 0;
+    right: 0;
+    width: 75%;
+    margin: 0 auto;
+    background: white;
+    padding: 8px;
 }
